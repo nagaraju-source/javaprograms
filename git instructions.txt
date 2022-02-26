@@ -1,0 +1,47 @@
+1) repository : multiple branches
+
+programs : repository name
+
+master branch : main copy -> production
+
+develop branch: -> dev environment
+
+feature branch: -> registration page , one activity
+
+programs: -> master
+programs/develop -> merge -> Pull request
+feature/programs/registration -> Pull request 
+
+git clone repositoryurl
+
+> master branch copy
+
+git branch -a : list of branches are available
+
+git checkout branchname
+
+git  pull (it will pull the latest code)
+
+//development 
+classes :
+
+src/main/java : we are going to write the functionality
+src/test/java: Junit test cases
+
+git status . : list of files changes to local system : red color
+
+git add . : it will show the color : green 
+
+modified files : HelloWOrld.java -> file is not related
+
+git checkout HelloWOrld.java
+
+git commit -m 'practice program' 
+
+it will not availble in the repository
+
+git push 
+----------------------------------------
+
+git bash
+git hub account: repository
